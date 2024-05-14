@@ -36,7 +36,7 @@ img {
 <template>
   <div class="container">
     <NuxtImg src="/img/500x500_Thumbnail.png" width="250" height="250" />
-    <h1>Robots & Things</h1>
+    <h2>Robots & Things</h2>
     <p class="description">
       Robots & Things is a 3D collectathon platformer that combines classic
       concepts with new twists like score attack based progression or a meter
