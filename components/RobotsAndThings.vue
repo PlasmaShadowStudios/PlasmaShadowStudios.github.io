@@ -40,7 +40,7 @@ img {
     <p class="description">
       Robots & Things is a 3D collectathon platformer that combines classic
       concepts with new twists like score attack based progression or a meter
-      for chaining moves!
+      for chaining moves! Check out a demo on the game's site!
     </p>
     <NuxtLink to="https://plasmashadowstudios.github.io/Robots-And-Things">
       Visit Website
