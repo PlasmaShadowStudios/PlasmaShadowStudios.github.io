@@ -1,3 +1,12 @@
+<script setup lang="ts">
+defineProps<{
+  title: string
+  description: string
+  link?: string
+  image: string
+}>()
+</script>
+
 <style scoped>
 .description {
   color: white;
@@ -35,14 +44,12 @@ img {
 
 <template>
   <div class="container">
-    <NuxtImg src="/img/500x500_Thumbnail.png" width="250" height="250" />
-    <h2>Robots & Things</h2>
+    <NuxtImg :src=image width="250" height="250" />
+    <h2>{{title}}</h2>
     <p class="description">
-      Robots & Things is a 3D collectathon platformer that combines classic
-      concepts with new twists like score attack based progression or a meter
-      for chaining moves! Check out a demo on the game's site!
+      {{ description }}
     </p>
-    <NuxtLink to="https://plasmashadowstudios.github.io/Robots-And-Things">
+    <NuxtLink v-if=link :to=link>
       Visit Website
     </NuxtLink>
     <br />

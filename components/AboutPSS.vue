@@ -4,7 +4,7 @@ div {
     max-width: 50%;
     border-radius: 8px;
     margin: auto;
-    margin-bottom: 64px;
+    margin-bottom: 128px;
     border: 8px ridge rgb(0, 12, 35);
 }
 img {
